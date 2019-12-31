@@ -1,0 +1,1943 @@
+In file included from /usr/include/unctrl.h:54:0,
+                 from /usr/include/curses.h:1764,
+                 from Main.c:1:
+/usr/local/include/curses.h:254:3: error: conflicting types for ‘MEVENT’
+ } MEVENT;
+   ^~~~~~
+In file included from Main.c:1:0:
+/usr/include/curses.h:1683:1: note: previous declaration of ‘MEVENT’ was here
+ MEVENT;
+ ^~~~~~
+In file included from /usr/include/unctrl.h:54:0,
+                 from /usr/include/curses.h:1764,
+                 from Main.c:1:
+/usr/local/include/curses.h:303:3: error: conflicting types for ‘WINDOW’
+ } WINDOW;
+   ^~~~~~
+In file included from Main.c:1:0:
+/usr/include/curses.h:386:24: note: previous declaration of ‘WINDOW’ was here
+ typedef struct _win_st WINDOW;
+                        ^~~~~~
+In file included from /usr/include/unctrl.h:54:0,
+                 from /usr/include/curses.h:1764,
+                 from Main.c:1:
+/usr/local/include/curses.h:366:3: error: conflicting types for ‘SCREEN’
+ } SCREEN;
+   ^~~~~~
+In file included from Main.c:1:0:
+/usr/include/curses.h:385:24: note: previous declaration of ‘SCREEN’ was here
+ typedef struct screen  SCREEN;
+                        ^~~~~~
+In file included from /usr/include/unctrl.h:54:0,
+                 from /usr/include/curses.h:1764,
+                 from Main.c:1:
+/usr/local/include/curses.h:386:22: error: conflicting types for ‘stdscr’
+ PDCEX  WINDOW       *stdscr;      /* the default screen window */
+                      ^~~~~~
+In file included from Main.c:1:0:
+/usr/include/curses.h:1466:37: note: previous declaration of ‘stdscr’ was here
+ extern NCURSES_EXPORT_VAR(WINDOW *) stdscr;
+                                     ^~~~~~
+In file included from /usr/include/unctrl.h:54:0,
+                 from /usr/include/curses.h:1764,
+                 from Main.c:1:
+/usr/local/include/curses.h:387:22: error: conflicting types for ‘curscr’
+ PDCEX  WINDOW       *curscr;      /* the current screen image */
+                      ^~~~~~
+In file included from Main.c:1:0:
+/usr/include/curses.h:1464:37: note: previous declaration of ‘curscr’ was here
+ extern NCURSES_EXPORT_VAR(WINDOW *) curscr;
+                                     ^~~~~~
+/usr/local/include/curses.h:877:16: error: expected ‘)’ before ‘(’ token
+ PDCEX  int     addch(const chtype);
+                ^
+/usr/local/include/curses.h:878:16: error: expected ‘)’ before ‘(’ token
+ PDCEX  int     addchnstr(const chtype *, int);
+                ^
+/usr/local/include/curses.h:879:16: error: expected ‘)’ before ‘(’ token
+ PDCEX  int     addchstr(const chtype *);
+                ^
+/usr/local/include/curses.h:880:16: error: expected ‘)’ before ‘(’ token
+ PDCEX  int     addnstr(const char *, int);
+                ^
+/usr/local/include/curses.h:881:16: error: expected ‘)’ before ‘(’ token
+ PDCEX  int     addstr(const char *);
+                ^
+In file included from Main.c:1:0:
+/usr/local/include/curses.h:882:16: error: expected ‘)’ before ‘(’ token
+ PDCEX  int     attroff(chtype);
+                ^
+/usr/local/include/curses.h:883:16: error: expected ‘)’ before ‘(’ token
+ PDCEX  int     attron(chtype);
+                ^
+/usr/local/include/curses.h:884:16: error: expected identifier or ‘(’ before numeric constant
+ PDCEX  int     attrset(chtype);
+                ^
+In file included from Main.c:1:0:
+/usr/local/include/curses.h:884:16: error: expected ‘)’ before ‘?’ token
+ PDCEX  int     attrset(chtype);
+                ^
+In file included from Main.c:1:0:
+/usr/local/include/curses.h:885:16: error: expected identifier or ‘(’ before numeric constant
+ PDCEX  int     attr_get(attr_t *, short *, void *);
+                ^
+In file included from Main.c:1:0:
+/usr/local/include/curses.h:885:16: error: expected ‘)’ before ‘?’ token
+ PDCEX  int     attr_get(attr_t *, short *, void *);
+                ^
+/usr/local/include/curses.h:886:16: error: expected ‘)’ before ‘(’ token
+ PDCEX  int     attr_off(attr_t, void *);
+                ^
+/usr/local/include/curses.h:887:16: error: expected ‘)’ before ‘(’ token
+ PDCEX  int     attr_on(attr_t, void *);
+                ^
+In file included from Main.c:1:0:
+/usr/local/include/curses.h:888:16: error: expected identifier or ‘(’ before numeric constant
+ PDCEX  int     attr_set(attr_t, short, void *);
+                ^
+In file included from Main.c:1:0:
+/usr/local/include/curses.h:888:16: error: expected ‘)’ before ‘?’ token
+ PDCEX  int     attr_set(attr_t, short, void *);
+                ^
+/usr/local/include/curses.h:891:16: error: expected ‘)’ before ‘(’ token
+ PDCEX  int     bkgd(chtype);
+                ^
+/usr/local/include/curses.h:892:16: error: expected ‘)’ before ‘(’ token
+ PDCEX  void    bkgdset(chtype);
+                ^
+/usr/local/include/curses.h:893:16: error: expected ‘)’ before ‘chtype’
+ PDCEX  int     border(chtype, chtype, chtype, chtype,
+                ^
+/usr/local/include/curses.h:895:16: error: expected declaration specifiers or ‘...’ before numeric constant
+ PDCEX  int     box(WINDOW *, chtype, chtype);
+                ^
+/usr/local/include/curses.h:895:16: error: expected declaration specifiers or ‘...’ before numeric constant
+ PDCEX  int     box(WINDOW *, chtype, chtype);
+                ^
+/usr/local/include/curses.h:895:16: error: expected declaration specifiers or ‘...’ before numeric constant
+ PDCEX  int     box(WINDOW *, chtype, chtype);
+                ^
+/usr/local/include/curses.h:895:16: error: expected declaration specifiers or ‘...’ before numeric constant
+ PDCEX  int     box(WINDOW *, chtype, chtype);
+                ^
+/usr/local/include/curses.h:898:16: error: expected ‘)’ before ‘(’ token
+ PDCEX  int     chgat(int, attr_t, short, const void *);
+                ^
+In file included from /usr/include/unctrl.h:54:0,
+                 from /usr/include/curses.h:1764,
+                 from Main.c:1:
+/usr/local/include/curses.h:899:16: error: conflicting types for ‘clearok’
+ PDCEX  int     clearok(WINDOW *, bool);
+                ^~~~~~~
+In file included from Main.c:1:0:
+/usr/include/curses.h:618:28: note: previous declaration of ‘clearok’ was here
+ extern NCURSES_EXPORT(int) clearok (WINDOW *,bool);   /* implemented */
+                            ^~~~~~~
+In file included from /usr/include/unctrl.h:54:0,
+                 from /usr/include/curses.h:1764,
+                 from Main.c:1:
+/usr/local/include/curses.h:900:26: error: macro "clear" passed 1 arguments, but takes just 0
+ PDCEX  int     clear(void);
+                          ^
+/usr/local/include/curses.h:900:16: error: ‘clear’ redeclared as different kind of symbol
+ PDCEX  int     clear(void);
+                ^~~~~
+In file included from Main.c:1:0:
+/usr/include/curses.h:617:28: note: previous declaration of ‘clear’ was here
+ extern NCURSES_EXPORT(int) clear (void);    /* generated */
+                            ^~~~~
+In file included from /usr/include/unctrl.h:54:0,
+                 from /usr/include/curses.h:1764,
+                 from Main.c:1:
+/usr/local/include/curses.h:901:29: error: macro "clrtobot" passed 1 arguments, but takes just 0
+ PDCEX  int     clrtobot(void);
+                             ^
+/usr/local/include/curses.h:901:16: error: ‘clrtobot’ redeclared as different kind of symbol
+ PDCEX  int     clrtobot(void);
+                ^~~~~~~~
+In file included from Main.c:1:0:
+/usr/include/curses.h:619:28: note: previous declaration of ‘clrtobot’ was here
+ extern NCURSES_EXPORT(int) clrtobot (void);    /* generated */
+                            ^~~~~~~~
+In file included from /usr/include/unctrl.h:54:0,
+                 from /usr/include/curses.h:1764,
+                 from Main.c:1:
+/usr/local/include/curses.h:902:29: error: macro "clrtoeol" passed 1 arguments, but takes just 0
+ PDCEX  int     clrtoeol(void);
+                             ^
+/usr/local/include/curses.h:902:16: error: ‘clrtoeol’ redeclared as different kind of symbol
+ PDCEX  int     clrtoeol(void);
+                ^~~~~~~~
+In file included from Main.c:1:0:
+/usr/include/curses.h:620:28: note: previous declaration of ‘clrtoeol’ was here
+ extern NCURSES_EXPORT(int) clrtoeol (void);    /* generated */
+                            ^~~~~~~~
+In file included from Main.c:1:0:
+/usr/local/include/curses.h:904:16: error: expected ‘)’ before ‘(’ token
+ PDCEX  int     color_set(short, void *);
+                ^
+In file included from /usr/include/unctrl.h:54:0,
+                 from /usr/include/curses.h:1764,
+                 from Main.c:1:
+/usr/local/include/curses.h:905:16: error: conflicting types for ‘copywin’
+ PDCEX  int     copywin(const WINDOW *, WINDOW *, int, int, int,
+                ^~~~~~~
+In file included from Main.c:1:0:
+/usr/include/curses.h:624:28: note: previous declaration of ‘copywin’ was here
+ extern NCURSES_EXPORT(int) copywin (const WINDOW*,WINDOW*,int,int,int,int,int,int,int); /* implemented */
+                            ^~~~~~~
+In file included from /usr/include/unctrl.h:54:0,
+                 from /usr/include/curses.h:1764,
+                 from Main.c:1:
+/usr/local/include/curses.h:911:26: error: macro "delch" passed 1 arguments, but takes just 0
+ PDCEX  int     delch(void);
+                          ^
+/usr/local/include/curses.h:911:16: error: ‘delch’ redeclared as different kind of symbol
+ PDCEX  int     delch(void);
+                ^~~~~
+In file included from Main.c:1:0:
+/usr/include/curses.h:629:28: note: previous declaration of ‘delch’ was here
+ extern NCURSES_EXPORT(int) delch (void);    /* generated */
+                            ^~~~~
+In file included from /usr/include/unctrl.h:54:0,
+                 from /usr/include/curses.h:1764,
+                 from Main.c:1:
+/usr/local/include/curses.h:912:29: error: macro "deleteln" passed 1 arguments, but takes just 0
+ PDCEX  int     deleteln(void);
+                             ^
+/usr/local/include/curses.h:912:16: error: ‘deleteln’ redeclared as different kind of symbol
+ PDCEX  int     deleteln(void);
+                ^~~~~~~~
+In file included from Main.c:1:0:
+/usr/include/curses.h:632:28: note: previous declaration of ‘deleteln’ was here
+ extern NCURSES_EXPORT(int) deleteln (void);    /* generated */
+                            ^~~~~~~~
+In file included from /usr/include/unctrl.h:54:0,
+                 from /usr/include/curses.h:1764,
+                 from Main.c:1:
+/usr/local/include/curses.h:913:16: error: conflicting types for ‘delscreen’
+ PDCEX  void    delscreen(SCREEN *);
+                ^~~~~~~~~
+In file included from Main.c:1:0:
+/usr/include/curses.h:630:29: note: previous declaration of ‘delscreen’ was here
+ extern NCURSES_EXPORT(void) delscreen (SCREEN *);   /* implemented */
+                             ^~~~~~~~~
+In file included from /usr/include/unctrl.h:54:0,
+                 from /usr/include/curses.h:1764,
+                 from Main.c:1:
+/usr/local/include/curses.h:914:16: error: conflicting types for ‘delwin’
+ PDCEX  int     delwin(WINDOW *);
+                ^~~~~~
+In file included from Main.c:1:0:
+/usr/include/curses.h:631:28: note: previous declaration of ‘delwin’ was here
+ extern NCURSES_EXPORT(int) delwin (WINDOW *);    /* implemented */
+                            ^~~~~~
+In file included from /usr/include/unctrl.h:54:0,
+                 from /usr/include/curses.h:1764,
+                 from Main.c:1:
+/usr/local/include/curses.h:915:16: error: conflicting types for ‘derwin’
+ PDCEX  WINDOW *derwin(WINDOW *, int, int, int, int);
+                ^~~~~~
+In file included from Main.c:1:0:
+/usr/include/curses.h:633:33: note: previous declaration of ‘derwin’ was here
+ extern NCURSES_EXPORT(WINDOW *) derwin (WINDOW *,int,int,int,int); /* implemented */
+                                 ^~~~~~
+In file included from /usr/include/unctrl.h:54:0,
+                 from /usr/include/curses.h:1764,
+                 from Main.c:1:
+/usr/local/include/curses.h:917:16: error: conflicting types for ‘dupwin’
+ PDCEX  WINDOW *dupwin(WINDOW *);
+                ^~~~~~
+In file included from Main.c:1:0:
+/usr/include/curses.h:635:33: note: previous declaration of ‘dupwin’ was here
+ extern NCURSES_EXPORT(WINDOW *) dupwin (WINDOW *);   /* implemented */
+                                 ^~~~~~
+/usr/local/include/curses.h:918:16: error: expected ‘)’ before ‘(’ token
+ PDCEX  int     echochar(const chtype);
+                ^
+In file included from /usr/include/unctrl.h:54:0,
+                 from /usr/include/curses.h:1764,
+                 from Main.c:1:
+/usr/local/include/curses.h:922:26: error: macro "erase" passed 1 arguments, but takes just 0
+ PDCEX  int     erase(void);
+                          ^
+/usr/local/include/curses.h:922:16: error: ‘erase’ redeclared as different kind of symbol
+ PDCEX  int     erase(void);
+                ^~~~~
+In file included from Main.c:1:0:
+/usr/include/curses.h:638:28: note: previous declaration of ‘erase’ was here
+ extern NCURSES_EXPORT(int) erase (void);    /* generated */
+                            ^~~~~
+In file included from Main.c:1:0:
+/usr/local/include/curses.h:926:16: error: expected identifier or ‘(’ before numeric constant
+ PDCEX  chtype  getbkgd(WINDOW *);
+                ^
+In file included from Main.c:1:0:
+/usr/local/include/curses.h:926:16: error: expected ‘)’ before ‘?’ token
+ PDCEX  chtype  getbkgd(WINDOW *);
+                ^
+/usr/local/include/curses.h:927:16: error: expected ‘)’ before ‘char’
+ PDCEX  int     getnstr(char *, int);
+                ^
+/usr/local/include/curses.h:928:16: error: expected ‘)’ before ‘(’ token
+ PDCEX  int     getstr(char *);
+                ^
+In file included from /usr/include/unctrl.h:54:0,
+                 from /usr/include/curses.h:1764,
+                 from Main.c:1:
+/usr/local/include/curses.h:929:16: error: conflicting types for ‘getwin’
+ PDCEX  WINDOW *getwin(FILE *);
+                ^~~~~~
+In file included from Main.c:1:0:
+/usr/include/curses.h:648:33: note: previous declaration of ‘getwin’ was here
+ extern NCURSES_EXPORT(WINDOW *) getwin (FILE *);   /* implemented */
+                                 ^~~~~~
+/usr/local/include/curses.h:934:16: error: expected ‘)’ before ‘chtype’
+ PDCEX  int     hline(chtype, int);
+                ^
+In file included from /usr/include/unctrl.h:54:0,
+                 from /usr/include/curses.h:1764,
+                 from Main.c:1:
+/usr/local/include/curses.h:935:16: error: conflicting types for ‘idcok’
+ PDCEX  void    idcok(WINDOW *, bool);
+                ^~~~~
+In file included from Main.c:1:0:
+/usr/include/curses.h:654:29: note: previous declaration of ‘idcok’ was here
+ extern NCURSES_EXPORT(void) idcok (WINDOW *, bool);   /* implemented */
+                             ^~~~~
+In file included from /usr/include/unctrl.h:54:0,
+                 from /usr/include/curses.h:1764,
+                 from Main.c:1:
+/usr/local/include/curses.h:936:16: error: conflicting types for ‘idlok’
+ PDCEX  int     idlok(WINDOW *, bool);
+                ^~~~~
+In file included from Main.c:1:0:
+/usr/include/curses.h:655:28: note: previous declaration of ‘idlok’ was here
+ extern NCURSES_EXPORT(int) idlok (WINDOW *, bool);   /* implemented */
+                            ^~~~~
+In file included from /usr/include/unctrl.h:54:0,
+                 from /usr/include/curses.h:1764,
+                 from Main.c:1:
+/usr/local/include/curses.h:937:16: error: conflicting types for ‘immedok’
+ PDCEX  void    immedok(WINDOW *, bool);
+                ^~~~~~~
+In file included from Main.c:1:0:
+/usr/include/curses.h:656:29: note: previous declaration of ‘immedok’ was here
+ extern NCURSES_EXPORT(void) immedok (WINDOW *, bool);   /* implemented */
+                             ^~~~~~~
+/usr/local/include/curses.h:938:16: error: expected ‘)’ before ‘(’ token
+ PDCEX  int     inchnstr(chtype *, int);
+                ^
+/usr/local/include/curses.h:939:16: error: expected ‘)’ before ‘(’ token
+ PDCEX  int     inchstr(chtype *);
+                ^
+In file included from /usr/include/unctrl.h:54:0,
+                 from /usr/include/curses.h:1764,
+                 from Main.c:1:
+/usr/local/include/curses.h:940:25: error: macro "inch" passed 1 arguments, but takes just 0
+ PDCEX  chtype  inch(void);
+                         ^
+/usr/local/include/curses.h:940:16: error: ‘inch’ redeclared as different kind of symbol
+ PDCEX  chtype  inch(void);
+                ^~~~
+In file included from Main.c:1:0:
+/usr/include/curses.h:657:31: note: previous declaration of ‘inch’ was here
+ extern NCURSES_EXPORT(chtype) inch (void);    /* generated */
+                               ^~~~
+In file included from /usr/include/unctrl.h:54:0,
+                 from /usr/include/curses.h:1764,
+                 from Main.c:1:
+/usr/local/include/curses.h:943:16: error: conflicting types for ‘initscr’
+ PDCEX  WINDOW *initscr(void);
+                ^~~~~~~
+In file included from Main.c:1:0:
+/usr/include/curses.h:660:33: note: previous declaration of ‘initscr’ was here
+ extern NCURSES_EXPORT(WINDOW *) initscr (void);    /* implemented */
+                                 ^~~~~~~
+/usr/local/include/curses.h:944:16: error: expected ‘)’ before ‘(’ token
+ PDCEX  int     innstr(char *, int);
+                ^
+/usr/local/include/curses.h:945:16: error: expected ‘)’ before ‘(’ token
+ PDCEX  int     insch(chtype);
+                ^
+/usr/local/include/curses.h:946:16: error: expected ‘)’ before ‘(’ token
+ PDCEX  int     insdelln(int);
+                ^
+In file included from /usr/include/unctrl.h:54:0,
+                 from /usr/include/curses.h:1764,
+                 from Main.c:1:
+/usr/local/include/curses.h:947:29: error: macro "insertln" passed 1 arguments, but takes just 0
+ PDCEX  int     insertln(void);
+                             ^
+/usr/local/include/curses.h:947:16: error: ‘insertln’ redeclared as different kind of symbol
+ PDCEX  int     insertln(void);
+                ^~~~~~~~
+In file included from Main.c:1:0:
+/usr/include/curses.h:666:28: note: previous declaration of ‘insertln’ was here
+ extern NCURSES_EXPORT(int) insertln (void);    /* generated */
+                            ^~~~~~~~
+/usr/local/include/curses.h:948:16: error: expected ‘)’ before ‘(’ token
+ PDCEX  int     insnstr(const char *, int);
+                ^
+/usr/local/include/curses.h:949:16: error: expected ‘)’ before ‘(’ token
+ PDCEX  int     insstr(const char *);
+                ^
+/usr/local/include/curses.h:950:16: error: expected ‘)’ before ‘(’ token
+ PDCEX  int     instr(char *);
+                ^
+In file included from /usr/include/unctrl.h:54:0,
+                 from /usr/include/curses.h:1764,
+                 from Main.c:1:
+/usr/local/include/curses.h:951:16: error: conflicting types for ‘intrflush’
+ PDCEX  int     intrflush(WINDOW *, bool);
+                ^~~~~~~~~
+In file included from Main.c:1:0:
+/usr/include/curses.h:670:28: note: previous declaration of ‘intrflush’ was here
+ extern NCURSES_EXPORT(int) intrflush (WINDOW *,bool);   /* implemented */
+                            ^~~~~~~~~
+/usr/local/include/curses.h:953:16: error: expected identifier or ‘(’ before ‘!’ token
+ PDCEX  bool    is_linetouched(WINDOW *, int);
+                ^
+/usr/local/include/curses.h:953:16: error: expected ‘)’ before ‘?’ token
+ PDCEX  bool    is_linetouched(WINDOW *, int);
+                ^
+In file included from /usr/include/unctrl.h:54:0,
+                 from /usr/include/curses.h:1764,
+                 from Main.c:1:
+/usr/local/include/curses.h:954:16: error: conflicting types for ‘is_wintouched’
+ PDCEX  bool    is_wintouched(WINDOW *);
+                ^~~~~~~~~~~~~
+In file included from Main.c:1:0:
+/usr/include/curses.h:673:29: note: previous declaration of ‘is_wintouched’ was here
+ extern NCURSES_EXPORT(bool) is_wintouched (WINDOW *);   /* implemented */
+                             ^~~~~~~~~~~~~
+In file included from /usr/include/unctrl.h:54:0,
+                 from /usr/include/curses.h:1764,
+                 from Main.c:1:
+/usr/local/include/curses.h:955:16: error: conflicting types for ‘keyname’
+ PDCEX  char   *keyname(int);
+                ^~~~~~~
+In file included from Main.c:1:0:
+/usr/include/curses.h:674:45: note: previous declaration of ‘keyname’ was here
+ extern NCURSES_EXPORT(NCURSES_CONST char *) keyname (int);  /* implemented */
+                                             ^~~~~~~
+In file included from /usr/include/unctrl.h:54:0,
+                 from /usr/include/curses.h:1764,
+                 from Main.c:1:
+/usr/local/include/curses.h:956:16: error: conflicting types for ‘keypad’
+ PDCEX  int     keypad(WINDOW *, bool);
+                ^~~~~~
+In file included from Main.c:1:0:
+/usr/include/curses.h:675:28: note: previous declaration of ‘keypad’ was here
+ extern NCURSES_EXPORT(int) keypad (WINDOW *,bool);   /* implemented */
+                            ^~~~~~
+In file included from /usr/include/unctrl.h:54:0,
+                 from /usr/include/curses.h:1764,
+                 from Main.c:1:
+/usr/local/include/curses.h:958:16: error: conflicting types for ‘leaveok’
+ PDCEX  int     leaveok(WINDOW *, bool);
+                ^~~~~~~
+In file included from Main.c:1:0:
+/usr/include/curses.h:677:28: note: previous declaration of ‘leaveok’ was here
+ extern NCURSES_EXPORT(int) leaveok (WINDOW *,bool);   /* implemented */
+                            ^~~~~~~
+In file included from /usr/include/unctrl.h:54:0,
+                 from /usr/include/curses.h:1764,
+                 from Main.c:1:
+/usr/local/include/curses.h:960:16: error: conflicting types for ‘meta’
+ PDCEX  int     meta(WINDOW *, bool);
+                ^~~~
+In file included from Main.c:1:0:
+/usr/include/curses.h:679:28: note: previous declaration of ‘meta’ was here
+ extern NCURSES_EXPORT(int) meta (WINDOW *,bool);   /* implemented */
+                            ^~~~
+/usr/local/include/curses.h:961:16: error: expected ‘)’ before ‘(’ token
+ PDCEX  int     move(int, int);
+                ^
+/usr/local/include/curses.h:962:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvaddch(int, int, const chtype);
+                ^
+/usr/local/include/curses.h:962:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvaddch(int, int, const chtype);
+                ^
+/usr/local/include/curses.h:962:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvaddch(int, int, const chtype);
+                ^
+/usr/local/include/curses.h:962:16: error: expected ‘)’ before ‘==’ token
+ PDCEX  int     mvaddch(int, int, const chtype);
+                ^
+/usr/local/include/curses.h:963:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvaddchnstr(int, int, const chtype *, int);
+                ^
+/usr/local/include/curses.h:963:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvaddchnstr(int, int, const chtype *, int);
+                ^
+/usr/local/include/curses.h:963:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvaddchnstr(int, int, const chtype *, int);
+                ^
+/usr/local/include/curses.h:963:16: error: expected ‘)’ before ‘==’ token
+ PDCEX  int     mvaddchnstr(int, int, const chtype *, int);
+                ^
+/usr/local/include/curses.h:964:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvaddchstr(int, int, const chtype *);
+                ^
+/usr/local/include/curses.h:964:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvaddchstr(int, int, const chtype *);
+                ^
+/usr/local/include/curses.h:964:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvaddchstr(int, int, const chtype *);
+                ^
+/usr/local/include/curses.h:964:16: error: expected ‘)’ before ‘==’ token
+ PDCEX  int     mvaddchstr(int, int, const chtype *);
+                ^
+/usr/local/include/curses.h:965:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvaddnstr(int, int, const char *, int);
+                ^
+/usr/local/include/curses.h:965:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvaddnstr(int, int, const char *, int);
+                ^
+/usr/local/include/curses.h:965:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvaddnstr(int, int, const char *, int);
+                ^
+/usr/local/include/curses.h:965:16: error: expected ‘)’ before ‘==’ token
+ PDCEX  int     mvaddnstr(int, int, const char *, int);
+                ^
+/usr/local/include/curses.h:966:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvaddstr(int, int, const char *);
+                ^
+/usr/local/include/curses.h:966:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvaddstr(int, int, const char *);
+                ^
+/usr/local/include/curses.h:966:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvaddstr(int, int, const char *);
+                ^
+/usr/local/include/curses.h:966:16: error: expected ‘)’ before ‘==’ token
+ PDCEX  int     mvaddstr(int, int, const char *);
+                ^
+/usr/local/include/curses.h:967:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvchgat(int, int, int, attr_t, short, const void *);
+                ^
+/usr/local/include/curses.h:967:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvchgat(int, int, int, attr_t, short, const void *);
+                ^
+/usr/local/include/curses.h:967:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvchgat(int, int, int, attr_t, short, const void *);
+                ^
+/usr/local/include/curses.h:967:16: error: expected ‘)’ before ‘==’ token
+ PDCEX  int     mvchgat(int, int, int, attr_t, short, const void *);
+                ^
+/usr/local/include/curses.h:969:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvdelch(int, int);
+                ^
+/usr/local/include/curses.h:969:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvdelch(int, int);
+                ^
+/usr/local/include/curses.h:969:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvdelch(int, int);
+                ^
+/usr/local/include/curses.h:969:16: error: expected ‘)’ before ‘==’ token
+ PDCEX  int     mvdelch(int, int);
+                ^
+In file included from /usr/include/unctrl.h:54:0,
+                 from /usr/include/curses.h:1764,
+                 from Main.c:1:
+/usr/local/include/curses.h:970:16: error: conflicting types for ‘mvderwin’
+ PDCEX  int     mvderwin(WINDOW *, int, int);
+                ^~~~~~~~
+In file included from Main.c:1:0:
+/usr/include/curses.h:689:28: note: previous declaration of ‘mvderwin’ was here
+ extern NCURSES_EXPORT(int) mvderwin (WINDOW *, int, int);  /* implemented */
+                            ^~~~~~~~
+/usr/local/include/curses.h:971:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvgetch(int, int);
+                ^
+/usr/local/include/curses.h:971:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvgetch(int, int);
+                ^
+/usr/local/include/curses.h:971:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvgetch(int, int);
+                ^
+/usr/local/include/curses.h:971:16: error: expected ‘)’ before ‘==’ token
+ PDCEX  int     mvgetch(int, int);
+                ^
+/usr/local/include/curses.h:972:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvgetnstr(int, int, char *, int);
+                ^
+/usr/local/include/curses.h:972:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvgetnstr(int, int, char *, int);
+                ^
+/usr/local/include/curses.h:972:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvgetnstr(int, int, char *, int);
+                ^
+/usr/local/include/curses.h:972:16: error: expected ‘)’ before ‘==’ token
+ PDCEX  int     mvgetnstr(int, int, char *, int);
+                ^
+/usr/local/include/curses.h:973:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvgetstr(int, int, char *);
+                ^
+/usr/local/include/curses.h:973:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvgetstr(int, int, char *);
+                ^
+/usr/local/include/curses.h:973:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvgetstr(int, int, char *);
+                ^
+/usr/local/include/curses.h:973:16: error: expected ‘)’ before ‘==’ token
+ PDCEX  int     mvgetstr(int, int, char *);
+                ^
+/usr/local/include/curses.h:974:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvhline(int, int, chtype, int);
+                ^
+/usr/local/include/curses.h:974:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvhline(int, int, chtype, int);
+                ^
+/usr/local/include/curses.h:974:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvhline(int, int, chtype, int);
+                ^
+/usr/local/include/curses.h:974:16: error: expected ‘)’ before ‘==’ token
+ PDCEX  int     mvhline(int, int, chtype, int);
+                ^
+/usr/local/include/curses.h:975:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  chtype  mvinch(int, int);
+                ^
+/usr/local/include/curses.h:975:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  chtype  mvinch(int, int);
+                ^
+/usr/local/include/curses.h:975:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  chtype  mvinch(int, int);
+                ^
+/usr/local/include/curses.h:975:16: error: expected ‘)’ before ‘==’ token
+ PDCEX  chtype  mvinch(int, int);
+                ^
+/usr/local/include/curses.h:976:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvinchnstr(int, int, chtype *, int);
+                ^
+/usr/local/include/curses.h:976:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvinchnstr(int, int, chtype *, int);
+                ^
+/usr/local/include/curses.h:976:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvinchnstr(int, int, chtype *, int);
+                ^
+/usr/local/include/curses.h:976:16: error: expected ‘)’ before ‘==’ token
+ PDCEX  int     mvinchnstr(int, int, chtype *, int);
+                ^
+/usr/local/include/curses.h:977:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvinchstr(int, int, chtype *);
+                ^
+/usr/local/include/curses.h:977:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvinchstr(int, int, chtype *);
+                ^
+/usr/local/include/curses.h:977:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvinchstr(int, int, chtype *);
+                ^
+/usr/local/include/curses.h:977:16: error: expected ‘)’ before ‘==’ token
+ PDCEX  int     mvinchstr(int, int, chtype *);
+                ^
+/usr/local/include/curses.h:978:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvinnstr(int, int, char *, int);
+                ^
+/usr/local/include/curses.h:978:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvinnstr(int, int, char *, int);
+                ^
+/usr/local/include/curses.h:978:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvinnstr(int, int, char *, int);
+                ^
+/usr/local/include/curses.h:978:16: error: expected ‘)’ before ‘==’ token
+ PDCEX  int     mvinnstr(int, int, char *, int);
+                ^
+/usr/local/include/curses.h:979:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvinsch(int, int, chtype);
+                ^
+/usr/local/include/curses.h:979:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvinsch(int, int, chtype);
+                ^
+/usr/local/include/curses.h:979:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvinsch(int, int, chtype);
+                ^
+/usr/local/include/curses.h:979:16: error: expected ‘)’ before ‘==’ token
+ PDCEX  int     mvinsch(int, int, chtype);
+                ^
+/usr/local/include/curses.h:980:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvinsnstr(int, int, const char *, int);
+                ^
+/usr/local/include/curses.h:980:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvinsnstr(int, int, const char *, int);
+                ^
+/usr/local/include/curses.h:980:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvinsnstr(int, int, const char *, int);
+                ^
+/usr/local/include/curses.h:980:16: error: expected ‘)’ before ‘==’ token
+ PDCEX  int     mvinsnstr(int, int, const char *, int);
+                ^
+/usr/local/include/curses.h:981:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvinsstr(int, int, const char *);
+                ^
+/usr/local/include/curses.h:981:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvinsstr(int, int, const char *);
+                ^
+/usr/local/include/curses.h:981:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvinsstr(int, int, const char *);
+                ^
+/usr/local/include/curses.h:981:16: error: expected ‘)’ before ‘==’ token
+ PDCEX  int     mvinsstr(int, int, const char *);
+                ^
+/usr/local/include/curses.h:982:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvinstr(int, int, char *);
+                ^
+/usr/local/include/curses.h:982:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvinstr(int, int, char *);
+                ^
+/usr/local/include/curses.h:982:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvinstr(int, int, char *);
+                ^
+/usr/local/include/curses.h:982:16: error: expected ‘)’ before ‘==’ token
+ PDCEX  int     mvinstr(int, int, char *);
+                ^
+/usr/local/include/curses.h:985:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvvline(int, int, chtype, int);
+                ^
+/usr/local/include/curses.h:985:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvvline(int, int, chtype, int);
+                ^
+/usr/local/include/curses.h:985:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvvline(int, int, chtype, int);
+                ^
+/usr/local/include/curses.h:985:16: error: expected ‘)’ before ‘==’ token
+ PDCEX  int     mvvline(int, int, chtype, int);
+                ^
+/usr/local/include/curses.h:986:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvwaddchnstr(WINDOW *, int, int, const chtype *, int);
+                ^
+/usr/local/include/curses.h:986:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvwaddchnstr(WINDOW *, int, int, const chtype *, int);
+                ^
+/usr/local/include/curses.h:986:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvwaddchnstr(WINDOW *, int, int, const chtype *, int);
+                ^
+/usr/local/include/curses.h:986:16: error: expected ‘)’ before ‘==’ token
+ PDCEX  int     mvwaddchnstr(WINDOW *, int, int, const chtype *, int);
+                ^
+/usr/local/include/curses.h:987:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvwaddchstr(WINDOW *, int, int, const chtype *);
+                ^
+/usr/local/include/curses.h:987:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvwaddchstr(WINDOW *, int, int, const chtype *);
+                ^
+/usr/local/include/curses.h:987:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvwaddchstr(WINDOW *, int, int, const chtype *);
+                ^
+/usr/local/include/curses.h:987:16: error: expected ‘)’ before ‘==’ token
+ PDCEX  int     mvwaddchstr(WINDOW *, int, int, const chtype *);
+                ^
+/usr/local/include/curses.h:988:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvwaddch(WINDOW *, int, int, const chtype);
+                ^
+/usr/local/include/curses.h:988:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvwaddch(WINDOW *, int, int, const chtype);
+                ^
+/usr/local/include/curses.h:988:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvwaddch(WINDOW *, int, int, const chtype);
+                ^
+/usr/local/include/curses.h:988:16: error: expected ‘)’ before ‘==’ token
+ PDCEX  int     mvwaddch(WINDOW *, int, int, const chtype);
+                ^
+/usr/local/include/curses.h:989:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvwaddnstr(WINDOW *, int, int, const char *, int);
+                ^
+/usr/local/include/curses.h:989:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvwaddnstr(WINDOW *, int, int, const char *, int);
+                ^
+/usr/local/include/curses.h:989:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvwaddnstr(WINDOW *, int, int, const char *, int);
+                ^
+/usr/local/include/curses.h:989:16: error: expected ‘)’ before ‘==’ token
+ PDCEX  int     mvwaddnstr(WINDOW *, int, int, const char *, int);
+                ^
+/usr/local/include/curses.h:990:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvwaddstr(WINDOW *, int, int, const char *);
+                ^
+/usr/local/include/curses.h:990:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvwaddstr(WINDOW *, int, int, const char *);
+                ^
+/usr/local/include/curses.h:990:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvwaddstr(WINDOW *, int, int, const char *);
+                ^
+/usr/local/include/curses.h:990:16: error: expected ‘)’ before ‘==’ token
+ PDCEX  int     mvwaddstr(WINDOW *, int, int, const char *);
+                ^
+/usr/local/include/curses.h:991:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvwchgat(WINDOW *, int, int, int, attr_t, short, const void *);
+                ^
+/usr/local/include/curses.h:991:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvwchgat(WINDOW *, int, int, int, attr_t, short, const void *);
+                ^
+/usr/local/include/curses.h:991:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvwchgat(WINDOW *, int, int, int, attr_t, short, const void *);
+                ^
+/usr/local/include/curses.h:991:16: error: expected ‘)’ before ‘==’ token
+ PDCEX  int     mvwchgat(WINDOW *, int, int, int, attr_t, short, const void *);
+                ^
+/usr/local/include/curses.h:992:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvwdelch(WINDOW *, int, int);
+                ^
+/usr/local/include/curses.h:992:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvwdelch(WINDOW *, int, int);
+                ^
+/usr/local/include/curses.h:992:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvwdelch(WINDOW *, int, int);
+                ^
+/usr/local/include/curses.h:992:16: error: expected ‘)’ before ‘==’ token
+ PDCEX  int     mvwdelch(WINDOW *, int, int);
+                ^
+/usr/local/include/curses.h:993:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvwgetch(WINDOW *, int, int);
+                ^
+/usr/local/include/curses.h:993:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvwgetch(WINDOW *, int, int);
+                ^
+/usr/local/include/curses.h:993:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvwgetch(WINDOW *, int, int);
+                ^
+/usr/local/include/curses.h:993:16: error: expected ‘)’ before ‘==’ token
+ PDCEX  int     mvwgetch(WINDOW *, int, int);
+                ^
+/usr/local/include/curses.h:994:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvwgetnstr(WINDOW *, int, int, char *, int);
+                ^
+/usr/local/include/curses.h:994:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvwgetnstr(WINDOW *, int, int, char *, int);
+                ^
+/usr/local/include/curses.h:994:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvwgetnstr(WINDOW *, int, int, char *, int);
+                ^
+/usr/local/include/curses.h:994:16: error: expected ‘)’ before ‘==’ token
+ PDCEX  int     mvwgetnstr(WINDOW *, int, int, char *, int);
+                ^
+/usr/local/include/curses.h:995:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvwgetstr(WINDOW *, int, int, char *);
+                ^
+/usr/local/include/curses.h:995:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvwgetstr(WINDOW *, int, int, char *);
+                ^
+/usr/local/include/curses.h:995:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvwgetstr(WINDOW *, int, int, char *);
+                ^
+/usr/local/include/curses.h:995:16: error: expected ‘)’ before ‘==’ token
+ PDCEX  int     mvwgetstr(WINDOW *, int, int, char *);
+                ^
+/usr/local/include/curses.h:996:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvwhline(WINDOW *, int, int, chtype, int);
+                ^
+/usr/local/include/curses.h:996:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvwhline(WINDOW *, int, int, chtype, int);
+                ^
+/usr/local/include/curses.h:996:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvwhline(WINDOW *, int, int, chtype, int);
+                ^
+/usr/local/include/curses.h:996:16: error: expected ‘)’ before ‘==’ token
+ PDCEX  int     mvwhline(WINDOW *, int, int, chtype, int);
+                ^
+/usr/local/include/curses.h:997:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvwinchnstr(WINDOW *, int, int, chtype *, int);
+                ^
+/usr/local/include/curses.h:997:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvwinchnstr(WINDOW *, int, int, chtype *, int);
+                ^
+/usr/local/include/curses.h:997:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvwinchnstr(WINDOW *, int, int, chtype *, int);
+                ^
+/usr/local/include/curses.h:997:16: error: expected ‘)’ before ‘==’ token
+ PDCEX  int     mvwinchnstr(WINDOW *, int, int, chtype *, int);
+                ^
+/usr/local/include/curses.h:998:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvwinchstr(WINDOW *, int, int, chtype *);
+                ^
+/usr/local/include/curses.h:998:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvwinchstr(WINDOW *, int, int, chtype *);
+                ^
+/usr/local/include/curses.h:998:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvwinchstr(WINDOW *, int, int, chtype *);
+                ^
+/usr/local/include/curses.h:998:16: error: expected ‘)’ before ‘==’ token
+ PDCEX  int     mvwinchstr(WINDOW *, int, int, chtype *);
+                ^
+/usr/local/include/curses.h:999:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  chtype  mvwinch(WINDOW *, int, int);
+                ^
+/usr/local/include/curses.h:999:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  chtype  mvwinch(WINDOW *, int, int);
+                ^
+/usr/local/include/curses.h:999:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  chtype  mvwinch(WINDOW *, int, int);
+                ^
+/usr/local/include/curses.h:999:16: error: expected ‘)’ before ‘==’ token
+ PDCEX  chtype  mvwinch(WINDOW *, int, int);
+                ^
+/usr/local/include/curses.h:1000:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvwinnstr(WINDOW *, int, int, char *, int);
+                ^
+/usr/local/include/curses.h:1000:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvwinnstr(WINDOW *, int, int, char *, int);
+                ^
+/usr/local/include/curses.h:1000:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvwinnstr(WINDOW *, int, int, char *, int);
+                ^
+/usr/local/include/curses.h:1000:16: error: expected ‘)’ before ‘==’ token
+ PDCEX  int     mvwinnstr(WINDOW *, int, int, char *, int);
+                ^
+/usr/local/include/curses.h:1001:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvwinsch(WINDOW *, int, int, chtype);
+                ^
+/usr/local/include/curses.h:1001:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvwinsch(WINDOW *, int, int, chtype);
+                ^
+/usr/local/include/curses.h:1001:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvwinsch(WINDOW *, int, int, chtype);
+                ^
+/usr/local/include/curses.h:1001:16: error: expected ‘)’ before ‘==’ token
+ PDCEX  int     mvwinsch(WINDOW *, int, int, chtype);
+                ^
+/usr/local/include/curses.h:1002:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvwinsnstr(WINDOW *, int, int, const char *, int);
+                ^
+/usr/local/include/curses.h:1002:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvwinsnstr(WINDOW *, int, int, const char *, int);
+                ^
+/usr/local/include/curses.h:1002:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvwinsnstr(WINDOW *, int, int, const char *, int);
+                ^
+/usr/local/include/curses.h:1002:16: error: expected ‘)’ before ‘==’ token
+ PDCEX  int     mvwinsnstr(WINDOW *, int, int, const char *, int);
+                ^
+/usr/local/include/curses.h:1003:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvwinsstr(WINDOW *, int, int, const char *);
+                ^
+/usr/local/include/curses.h:1003:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvwinsstr(WINDOW *, int, int, const char *);
+                ^
+/usr/local/include/curses.h:1003:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvwinsstr(WINDOW *, int, int, const char *);
+                ^
+/usr/local/include/curses.h:1003:16: error: expected ‘)’ before ‘==’ token
+ PDCEX  int     mvwinsstr(WINDOW *, int, int, const char *);
+                ^
+/usr/local/include/curses.h:1004:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvwinstr(WINDOW *, int, int, char *);
+                ^
+/usr/local/include/curses.h:1004:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvwinstr(WINDOW *, int, int, char *);
+                ^
+/usr/local/include/curses.h:1004:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvwinstr(WINDOW *, int, int, char *);
+                ^
+/usr/local/include/curses.h:1004:16: error: expected ‘)’ before ‘==’ token
+ PDCEX  int     mvwinstr(WINDOW *, int, int, char *);
+                ^
+In file included from /usr/include/unctrl.h:54:0,
+                 from /usr/include/curses.h:1764,
+                 from Main.c:1:
+/usr/local/include/curses.h:1005:16: error: conflicting types for ‘mvwin’
+ PDCEX  int     mvwin(WINDOW *, int, int);
+                ^~~~~
+In file included from Main.c:1:0:
+/usr/include/curses.h:718:28: note: previous declaration of ‘mvwin’ was here
+ extern NCURSES_EXPORT(int) mvwin (WINDOW *,int,int);   /* implemented */
+                            ^~~~~
+In file included from /usr/include/unctrl.h:54:0,
+                 from /usr/include/curses.h:1764,
+                 from Main.c:1:
+/usr/local/include/curses.h:1006:16: error: conflicting types for ‘mvwprintw’
+ PDCEX  int     mvwprintw(WINDOW *, int, int, const char *, ...);
+                ^~~~~~~~~
+In file included from Main.c:1:0:
+/usr/include/curses.h:727:28: note: previous declaration of ‘mvwprintw’ was here
+ extern NCURSES_EXPORT(int) mvwprintw (WINDOW*,int,int, const char *,...) /* implemented */
+                            ^~~~~~~~~
+In file included from /usr/include/unctrl.h:54:0,
+                 from /usr/include/curses.h:1764,
+                 from Main.c:1:
+/usr/local/include/curses.h:1007:16: error: conflicting types for ‘mvwscanw’
+ PDCEX  int     mvwscanw(WINDOW *, int, int, const char *, ...);
+                ^~~~~~~~
+In file included from Main.c:1:0:
+/usr/include/curses.h:729:28: note: previous declaration of ‘mvwscanw’ was here
+ extern NCURSES_EXPORT(int) mvwscanw (WINDOW *,int,int, NCURSES_CONST char *,...) /* implemented */
+                            ^~~~~~~~
+/usr/local/include/curses.h:1008:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvwvline(WINDOW *, int, int, chtype, int);
+                ^
+/usr/local/include/curses.h:1008:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvwvline(WINDOW *, int, int, chtype, int);
+                ^
+/usr/local/include/curses.h:1008:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     mvwvline(WINDOW *, int, int, chtype, int);
+                ^
+/usr/local/include/curses.h:1008:16: error: expected ‘)’ before ‘==’ token
+ PDCEX  int     mvwvline(WINDOW *, int, int, chtype, int);
+                ^
+In file included from /usr/include/unctrl.h:54:0,
+                 from /usr/include/curses.h:1764,
+                 from Main.c:1:
+/usr/local/include/curses.h:1010:16: error: conflicting types for ‘newpad’
+ PDCEX  WINDOW *newpad(int, int);
+                ^~~~~~
+In file included from Main.c:1:0:
+/usr/include/curses.h:733:33: note: previous declaration of ‘newpad’ was here
+ extern NCURSES_EXPORT(WINDOW *) newpad (int,int);   /* implemented */
+                                 ^~~~~~
+In file included from /usr/include/unctrl.h:54:0,
+                 from /usr/include/curses.h:1764,
+                 from Main.c:1:
+/usr/local/include/curses.h:1011:16: error: conflicting types for ‘newterm’
+ PDCEX  SCREEN *newterm(const char *, FILE *, FILE *);
+                ^~~~~~~
+In file included from Main.c:1:0:
+/usr/include/curses.h:734:33: note: previous declaration of ‘newterm’ was here
+ extern NCURSES_EXPORT(SCREEN *) newterm (NCURSES_CONST char *,FILE *,FILE *); /* implemented */
+                                 ^~~~~~~
+In file included from /usr/include/unctrl.h:54:0,
+                 from /usr/include/curses.h:1764,
+                 from Main.c:1:
+/usr/local/include/curses.h:1012:16: error: conflicting types for ‘newwin’
+ PDCEX  WINDOW *newwin(int, int, int, int);
+                ^~~~~~
+In file included from Main.c:1:0:
+/usr/include/curses.h:735:33: note: previous declaration of ‘newwin’ was here
+ extern NCURSES_EXPORT(WINDOW *) newwin (int,int,int,int);  /* implemented */
+                                 ^~~~~~
+In file included from /usr/include/unctrl.h:54:0,
+                 from /usr/include/curses.h:1764,
+                 from Main.c:1:
+/usr/local/include/curses.h:1015:16: error: conflicting types for ‘nodelay’
+ PDCEX  int     nodelay(WINDOW *, bool);
+                ^~~~~~~
+In file included from Main.c:1:0:
+/usr/include/curses.h:738:28: note: previous declaration of ‘nodelay’ was here
+ extern NCURSES_EXPORT(int) nodelay (WINDOW *,bool);   /* implemented */
+                            ^~~~~~~
+In file included from /usr/include/unctrl.h:54:0,
+                 from /usr/include/curses.h:1764,
+                 from Main.c:1:
+/usr/local/include/curses.h:1020:16: error: conflicting types for ‘notimeout’
+ PDCEX  int     notimeout(WINDOW *, bool);
+                ^~~~~~~~~
+In file included from Main.c:1:0:
+/usr/include/curses.h:743:28: note: previous declaration of ‘notimeout’ was here
+ extern NCURSES_EXPORT(int) notimeout (WINDOW *,bool);   /* implemented */
+                            ^~~~~~~~~
+In file included from /usr/include/unctrl.h:54:0,
+                 from /usr/include/curses.h:1764,
+                 from Main.c:1:
+/usr/local/include/curses.h:1021:16: error: conflicting types for ‘overlay’
+ PDCEX  int     overlay(const WINDOW *, WINDOW *);
+                ^~~~~~~
+In file included from Main.c:1:0:
+/usr/include/curses.h:744:28: note: previous declaration of ‘overlay’ was here
+ extern NCURSES_EXPORT(int) overlay (const WINDOW*,WINDOW *);  /* implemented */
+                            ^~~~~~~
+In file included from /usr/include/unctrl.h:54:0,
+                 from /usr/include/curses.h:1764,
+                 from Main.c:1:
+/usr/local/include/curses.h:1022:16: error: conflicting types for ‘overwrite’
+ PDCEX  int     overwrite(const WINDOW *, WINDOW *);
+                ^~~~~~~~~
+In file included from Main.c:1:0:
+/usr/include/curses.h:745:28: note: previous declaration of ‘overwrite’ was here
+ extern NCURSES_EXPORT(int) overwrite (const WINDOW*,WINDOW *);  /* implemented */
+                            ^~~~~~~~~
+In file included from /usr/include/unctrl.h:54:0,
+                 from /usr/include/curses.h:1764,
+                 from Main.c:1:
+/usr/local/include/curses.h:1024:16: error: conflicting types for ‘pechochar’
+ PDCEX  int     pechochar(WINDOW *, chtype);
+                ^~~~~~~~~
+In file included from Main.c:1:0:
+/usr/include/curses.h:748:28: note: previous declaration of ‘pechochar’ was here
+ extern NCURSES_EXPORT(int) pechochar (WINDOW *, const chtype);  /* implemented */
+                            ^~~~~~~~~
+In file included from /usr/include/unctrl.h:54:0,
+                 from /usr/include/curses.h:1764,
+                 from Main.c:1:
+/usr/local/include/curses.h:1025:16: error: conflicting types for ‘pnoutrefresh’
+ PDCEX  int     pnoutrefresh(WINDOW *, int, int, int, int, int, int);
+                ^~~~~~~~~~~~
+In file included from Main.c:1:0:
+/usr/include/curses.h:749:28: note: previous declaration of ‘pnoutrefresh’ was here
+ extern NCURSES_EXPORT(int) pnoutrefresh (WINDOW*,int,int,int,int,int,int);/* implemented */
+                            ^~~~~~~~~~~~
+In file included from /usr/include/unctrl.h:54:0,
+                 from /usr/include/curses.h:1764,
+                 from Main.c:1:
+/usr/local/include/curses.h:1026:16: error: conflicting types for ‘prefresh’
+ PDCEX  int     prefresh(WINDOW *, int, int, int, int, int, int);
+                ^~~~~~~~
+In file included from Main.c:1:0:
+/usr/include/curses.h:750:28: note: previous declaration of ‘prefresh’ was here
+ extern NCURSES_EXPORT(int) prefresh (WINDOW *,int,int,int,int,int,int); /* implemented */
+                            ^~~~~~~~
+In file included from /usr/include/unctrl.h:54:0,
+                 from /usr/include/curses.h:1764,
+                 from Main.c:1:
+/usr/local/include/curses.h:1028:16: error: conflicting types for ‘putwin’
+ PDCEX  int     putwin(WINDOW *, FILE *);
+                ^~~~~~
+In file included from Main.c:1:0:
+/usr/include/curses.h:753:28: note: previous declaration of ‘putwin’ was here
+ extern NCURSES_EXPORT(int) putwin (WINDOW *, FILE *);   /* implemented */
+                            ^~~~~~
+/usr/local/include/curses.h:1031:16: error: expected declaration specifiers or ‘...’ before numeric constant
+ PDCEX  int     redrawwin(WINDOW *);
+                ^
+/usr/local/include/curses.h:1031:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     redrawwin(WINDOW *);
+                ^
+In file included from /usr/include/unctrl.h:54:0,
+                 from /usr/include/curses.h:1764,
+                 from Main.c:1:
+/usr/local/include/curses.h:1032:28: error: macro "refresh" passed 1 arguments, but takes just 0
+ PDCEX  int     refresh(void);
+                            ^
+/usr/local/include/curses.h:1032:16: error: ‘refresh’ redeclared as different kind of symbol
+ PDCEX  int     refresh(void);
+                ^~~~~~~
+In file included from Main.c:1:0:
+/usr/include/curses.h:757:28: note: previous declaration of ‘refresh’ was here
+ extern NCURSES_EXPORT(int) refresh (void);    /* generated */
+                            ^~~~~~~
+In file included from /usr/include/unctrl.h:54:0,
+                 from /usr/include/curses.h:1764,
+                 from Main.c:1:
+/usr/local/include/curses.h:1036:16: error: conflicting types for ‘ripoffline’
+ PDCEX  int     ripoffline(int, int (*)(WINDOW *, int));
+                ^~~~~~~~~~
+In file included from Main.c:1:0:
+/usr/include/curses.h:761:28: note: previous declaration of ‘ripoffline’ was here
+ extern NCURSES_EXPORT(int) ripoffline (int, int (*)(WINDOW *, int)); /* implemented */
+                            ^~~~~~~~~~
+/usr/local/include/curses.h:1043:16: error: expected ‘)’ before ‘(’ token
+ PDCEX  int     scrl(int);
+                ^
+/usr/local/include/curses.h:1044:16: error: expected declaration specifiers or ‘...’ before numeric constant
+ PDCEX  int     scroll(WINDOW *);
+                ^
+In file included from /usr/include/unctrl.h:54:0,
+                 from /usr/include/curses.h:1764,
+                 from Main.c:1:
+/usr/local/include/curses.h:1045:16: error: conflicting types for ‘scrollok’
+ PDCEX  int     scrollok(WINDOW *, bool);
+                ^~~~~~~~
+In file included from Main.c:1:0:
+/usr/include/curses.h:769:28: note: previous declaration of ‘scrollok’ was here
+ extern NCURSES_EXPORT(int) scrollok (WINDOW *,bool);   /* implemented */
+                            ^~~~~~~~
+In file included from /usr/include/unctrl.h:54:0,
+                 from /usr/include/curses.h:1764,
+                 from Main.c:1:
+/usr/local/include/curses.h:1046:16: error: conflicting types for ‘set_term’
+ PDCEX  SCREEN *set_term(SCREEN *);
+                ^~~~~~~~
+In file included from Main.c:1:0:
+/usr/include/curses.h:773:33: note: previous declaration of ‘set_term’ was here
+ extern NCURSES_EXPORT(SCREEN *) set_term (SCREEN *);   /* implemented */
+                                 ^~~~~~~~
+/usr/local/include/curses.h:1047:16: error: expected ‘)’ before ‘(’ token
+ PDCEX  int     setscrreg(int, int);
+                ^
+/usr/local/include/curses.h:1049:16: error: expected identifier or ‘(’ before ‘void’
+ PDCEX  int     slk_attr_off(const attr_t, void *);
+                ^
+/usr/local/include/curses.h:1049:16: error: expected ‘)’ before ‘?’ token
+ PDCEX  int     slk_attr_off(const attr_t, void *);
+                ^
+/usr/local/include/curses.h:1051:16: error: expected identifier or ‘(’ before ‘void’
+ PDCEX  int     slk_attr_on(const attr_t, void *);
+                ^
+/usr/local/include/curses.h:1051:16: error: expected ‘)’ before ‘?’ token
+ PDCEX  int     slk_attr_on(const attr_t, void *);
+                ^
+In file included from /usr/include/unctrl.h:54:0,
+                 from /usr/include/curses.h:1764,
+                 from Main.c:1:
+/usr/local/include/curses.h:1063:29: error: macro "standend" passed 1 arguments, but takes just 0
+ PDCEX  int     standend(void);
+                             ^
+/usr/local/include/curses.h:1063:16: error: ‘standend’ redeclared as different kind of symbol
+ PDCEX  int     standend(void);
+                ^~~~~~~~
+In file included from Main.c:1:0:
+/usr/include/curses.h:791:28: note: previous declaration of ‘standend’ was here
+ extern NCURSES_EXPORT(int) standend (void);    /* generated */
+                            ^~~~~~~~
+In file included from /usr/include/unctrl.h:54:0,
+                 from /usr/include/curses.h:1764,
+                 from Main.c:1:
+/usr/local/include/curses.h:1064:29: error: macro "standout" passed 1 arguments, but takes just 0
+ PDCEX  int     standout(void);
+                             ^
+/usr/local/include/curses.h:1064:16: error: ‘standout’ redeclared as different kind of symbol
+ PDCEX  int     standout(void);
+                ^~~~~~~~
+In file included from Main.c:1:0:
+/usr/include/curses.h:790:28: note: previous declaration of ‘standout’ was here
+ extern NCURSES_EXPORT(int) standout (void);    /* generated */
+                            ^~~~~~~~
+In file included from /usr/include/unctrl.h:54:0,
+                 from /usr/include/curses.h:1764,
+                 from Main.c:1:
+/usr/local/include/curses.h:1066:16: error: conflicting types for ‘subpad’
+ PDCEX  WINDOW *subpad(WINDOW *, int, int, int, int);
+                ^~~~~~
+In file included from Main.c:1:0:
+/usr/include/curses.h:793:33: note: previous declaration of ‘subpad’ was here
+ extern NCURSES_EXPORT(WINDOW *) subpad (WINDOW *, int, int, int, int); /* implemented */
+                                 ^~~~~~
+In file included from /usr/include/unctrl.h:54:0,
+                 from /usr/include/curses.h:1764,
+                 from Main.c:1:
+/usr/local/include/curses.h:1067:16: error: conflicting types for ‘subwin’
+ PDCEX  WINDOW *subwin(WINDOW *, int, int, int, int);
+                ^~~~~~
+In file included from Main.c:1:0:
+/usr/include/curses.h:794:33: note: previous declaration of ‘subwin’ was here
+ extern NCURSES_EXPORT(WINDOW *) subwin (WINDOW *, int, int, int, int); /* implemented */
+                                 ^~~~~~
+In file included from /usr/include/unctrl.h:54:0,
+                 from /usr/include/curses.h:1764,
+                 from Main.c:1:
+/usr/local/include/curses.h:1068:16: error: conflicting types for ‘syncok’
+ PDCEX  int     syncok(WINDOW *, bool);
+                ^~~~~~
+In file included from Main.c:1:0:
+/usr/include/curses.h:795:28: note: previous declaration of ‘syncok’ was here
+ extern NCURSES_EXPORT(int) syncok (WINDOW *, bool);   /* implemented */
+                            ^~~~~~
+/usr/local/include/curses.h:1072:16: error: expected ‘)’ before ‘(’ token
+ PDCEX  void    timeout(int);
+                ^
+/usr/local/include/curses.h:1073:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     touchline(WINDOW *, int, int);
+                ^
+/usr/local/include/curses.h:1073:16: error: expected declaration specifiers or ‘...’ before numeric constant
+ PDCEX  int     touchline(WINDOW *, int, int);
+                ^
+/usr/local/include/curses.h:1074:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     touchwin(WINDOW *);
+                ^
+/usr/local/include/curses.h:1074:16: error: expected declaration specifiers or ‘...’ before numeric constant
+ PDCEX  int     touchwin(WINDOW *);
+                ^
+/usr/local/include/curses.h:1074:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     touchwin(WINDOW *);
+                ^
+/usr/local/include/curses.h:1074:16: error: expected declaration specifiers or ‘...’ before numeric constant
+ PDCEX  int     touchwin(WINDOW *);
+                ^
+/usr/local/include/curses.h:1076:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     untouchwin(WINDOW *);
+                ^
+/usr/local/include/curses.h:1076:16: error: expected declaration specifiers or ‘...’ before numeric constant
+ PDCEX  int     untouchwin(WINDOW *);
+                ^
+/usr/local/include/curses.h:1076:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     untouchwin(WINDOW *);
+                ^
+/usr/local/include/curses.h:1076:16: error: expected declaration specifiers or ‘...’ before numeric constant
+ PDCEX  int     untouchwin(WINDOW *);
+                ^
+/usr/local/include/curses.h:1082:16: error: expected ‘)’ before ‘chtype’
+ PDCEX  int     vline(chtype, int);
+                ^
+/usr/local/include/curses.h:1083:16: error: conflicting types for ‘vwprintw’
+ PDCEX  int     vw_printw(WINDOW *, const char *, va_list);
+                ^
+/usr/include/curses.h:809:28: note: previous declaration of ‘vwprintw’ was here
+ extern NCURSES_EXPORT(int) vwprintw (WINDOW *, const char *,va_list); /* implemented */
+                            ^~~~~~~~
+In file included from /usr/include/unctrl.h:54:0,
+                 from /usr/include/curses.h:1764,
+                 from Main.c:1:
+/usr/local/include/curses.h:1084:16: error: conflicting types for ‘vwprintw’
+ PDCEX  int     vwprintw(WINDOW *, const char *, va_list);
+                ^~~~~~~~
+In file included from Main.c:1:0:
+/usr/include/curses.h:809:28: note: previous declaration of ‘vwprintw’ was here
+ extern NCURSES_EXPORT(int) vwprintw (WINDOW *, const char *,va_list); /* implemented */
+                            ^~~~~~~~
+/usr/local/include/curses.h:1085:16: error: conflicting types for ‘vwscanw’
+ PDCEX  int     vw_scanw(WINDOW *, const char *, va_list);
+                ^
+/usr/include/curses.h:811:28: note: previous declaration of ‘vwscanw’ was here
+ extern NCURSES_EXPORT(int) vwscanw (WINDOW *, NCURSES_CONST char *,va_list); /* implemented */
+                            ^~~~~~~
+In file included from /usr/include/unctrl.h:54:0,
+                 from /usr/include/curses.h:1764,
+                 from Main.c:1:
+/usr/local/include/curses.h:1086:16: error: conflicting types for ‘vwscanw’
+ PDCEX  int     vwscanw(WINDOW *, const char *, va_list);
+                ^~~~~~~
+In file included from Main.c:1:0:
+/usr/include/curses.h:811:28: note: previous declaration of ‘vwscanw’ was here
+ extern NCURSES_EXPORT(int) vwscanw (WINDOW *, NCURSES_CONST char *,va_list); /* implemented */
+                            ^~~~~~~
+In file included from /usr/include/unctrl.h:54:0,
+                 from /usr/include/curses.h:1764,
+                 from Main.c:1:
+/usr/local/include/curses.h:1087:16: error: conflicting types for ‘waddchnstr’
+ PDCEX  int     waddchnstr(WINDOW *, const chtype *, int);
+                ^~~~~~~~~~
+In file included from Main.c:1:0:
+/usr/include/curses.h:814:28: note: previous declaration of ‘waddchnstr’ was here
+ extern NCURSES_EXPORT(int) waddchnstr (WINDOW *,const chtype *,int); /* implemented */
+                            ^~~~~~~~~~
+/usr/local/include/curses.h:1088:16: error: expected declaration specifiers or ‘...’ before ‘-’ token
+ PDCEX  int     waddchstr(WINDOW *, const chtype *);
+                ^
+In file included from /usr/include/unctrl.h:54:0,
+                 from /usr/include/curses.h:1764,
+                 from Main.c:1:
+/usr/local/include/curses.h:1089:16: error: conflicting types for ‘waddch’
+ PDCEX  int     waddch(WINDOW *, const chtype);
+                ^~~~~~
+In file included from Main.c:1:0:
+/usr/include/curses.h:813:28: note: previous declaration of ‘waddch’ was here
+ extern NCURSES_EXPORT(int) waddch (WINDOW *, const chtype);  /* implemented */
+                            ^~~~~~
+In file included from /usr/include/unctrl.h:54:0,
+                 from /usr/include/curses.h:1764,
+                 from Main.c:1:
+/usr/local/include/curses.h:1090:16: error: conflicting types for ‘waddnstr’
+ PDCEX  int     waddnstr(WINDOW *, const char *, int);
+                ^~~~~~~~
+In file included from Main.c:1:0:
+/usr/include/curses.h:816:28: note: previous declaration of ‘waddnstr’ was here
+ extern NCURSES_EXPORT(int) waddnstr (WINDOW *,const char *,int); /* implemented */
+                            ^~~~~~~~
+/usr/local/include/curses.h:1091:16: error: expected declaration specifiers or ‘...’ before ‘-’ token
+ PDCEX  int     waddstr(WINDOW *, const char *);
+                ^
+In file included from Main.c:1:0:
+/usr/local/include/curses.h:1092:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     wattroff(WINDOW *, chtype);
+                ^
+In file included from /usr/include/curses.h:202:0,
+                 from Main.c:1:
+/usr/local/include/curses.h:1092:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     wattroff(WINDOW *, chtype);
+                ^
+In file included from Main.c:1:0:
+/usr/local/include/curses.h:1093:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     wattron(WINDOW *, chtype);
+                ^
+In file included from /usr/include/curses.h:202:0,
+                 from Main.c:1:
+/usr/local/include/curses.h:1093:16: error: expected declaration specifiers or ‘...’ before ‘(’ token
+ PDCEX  int     wattron(WINDOW *, chtype);
+                ^
+In file included from Main.c:1:0:
+/usr/local/include/curses.h:1094:16: error: expected identifier or ‘(’ before numeric constant
+ PDCEX  int     wattrset(WINDOW *, chtype);
+                ^
+In file included from Main.c:1:0:
+/usr/local/include/curses.h:1094:16: error: expected ‘)’ before ‘?’ token
+ PDCEX  int     wattrset(WINDOW *, chtype);
+                ^
+In file included from Main.c:1:0:
+/usr/local/include/curses.h:1095:16: error: expected identifier or ‘(’ before numeric constant
+ PDCEX  int     wattr_get(WINDOW *, attr_t *, short *, void *);
+                ^
+In file included from Main.c:1:0:
+/usr/local/include/curses.h:1095:16: error: expected ‘)’ before ‘?’ token
+ PDCEX  int     wattr_get(WINDOW *, attr_t *, short *, void *);
+                ^
+In file included from /usr/include/unctrl.h:54:0,
+                 from /usr/include/curses.h:1764,
+                 from Main.c:1:
+/usr/local/include/curses.h:1096:16: error: conflicting types for ‘wattr_off’
+ PDCEX  int     wattr_off(WINDOW *, attr_t, void *);
+                ^~~~~~~~~
+In file included from Main.c:1:0:
+/usr/include/curses.h:823:28: note: previous declaration of ‘wattr_off’ was here
+ extern NCURSES_EXPORT(int) wattr_off (WINDOW *, attr_t, void *); /* implemented */
+                            ^~~~~~~~~
+In file included from /usr/include/unctrl.h:54:0,
+                 from /usr/include/curses.h:1764,
+                 from Main.c:1:
+/usr/local/include/curses.h:1097:16: error: conflicting types for ‘wattr_on’
+ PDCEX  int     wattr_on(WINDOW *, attr_t, void *);
+                ^~~~~~~~
+In file included from Main.c:1:0:
+/usr/include/curses.h:822:28: note: previous declaration of ‘wattr_on’ was here
+ extern NCURSES_EXPORT(int) wattr_on (WINDOW *, attr_t, void *);  /* implemented */
+                            ^~~~~~~~
+In file included from Main.c:1:0:
+/usr/local/include/curses.h:1098:16: error: expected identifier or ‘(’ before numeric constant
+ PDCEX  int     wattr_set(WINDOW *, attr_t, short, void *);
+                ^
+In file included from Main.c:1:0:
+/usr/local/include/curses.h:1098:16: error: expected ‘)’ before ‘?’ token
+ PDCEX  int     wattr_set(WINDOW *, attr_t, short, void *);
+                ^
+In file included from /usr/include/unctrl.h:54:0,
+                 from /usr/include/curses.h:1764,
+                 from Main.c:1:
+/usr/local/include/curses.h:1099:16: error: conflicting types for ‘wbkgdset’
+ PDCEX  void    wbkgdset(WINDOW *, chtype);
+                ^~~~~~~~
+In file included from Main.c:1:0:
+/usr/include/curses.h:826:29: note: previous declaration of ‘wbkgdset’ was here
+ extern NCURSES_EXPORT(void) wbkgdset (WINDOW *,chtype);   /* implemented */
+                             ^~~~~~~~
+In file included from /usr/include/unctrl.h:54:0,
+                 from /usr/include/curses.h:1764,
+                 from Main.c:1:
+/usr/local/include/curses.h:1100:16: error: conflicting types for ‘wbkgd’
+ PDCEX  int     wbkgd(WINDOW *, chtype);
+                ^~~~~
+In file included from Main.c:1:0:
+/usr/include/curses.h:825:28: note: previous declaration of ‘wbkgd’ was here
+ extern NCURSES_EXPORT(int) wbkgd (WINDOW *, chtype);   /* implemented */
+                            ^~~~~
+In file included from /usr/include/unctrl.h:54:0,
+                 from /usr/include/curses.h:1764,
+                 from Main.c:1:
+/usr/local/include/curses.h:1101:16: error: conflicting types for ‘wborder’
+ PDCEX  int     wborder(WINDOW *, chtype, chtype, chtype, chtype,
+                ^~~~~~~
+In file included from Main.c:1:0:
+/usr/include/curses.h:827:28: note: previous declaration of ‘wborder’ was here
+ extern NCURSES_EXPORT(int) wborder (WINDOW *,chtype,chtype,chtype,chtype,chtype,chtype,chtype,chtype); /* implemented */
+                            ^~~~~~~
+In file included from /usr/include/unctrl.h:54:0,
+                 from /usr/include/curses.h:1764,
+                 from Main.c:1:
+/usr/local/include/curses.h:1103:16: error: conflicting types for ‘wchgat’
+ PDCEX  int     wchgat(WINDOW *, int, attr_t, short, const void *);
+                ^~~~~~
+In file included from Main.c:1:0:
+/usr/include/curses.h:828:28: note: previous declaration of ‘wchgat’ was here
+ extern NCURSES_EXPORT(int) wchgat (WINDOW *, int, attr_t, NCURSES_PAIRS_T, const void *);/* implemented */
+                            ^~~~~~
+In file included from /usr/include/unctrl.h:54:0,
+                 from /usr/include/curses.h:1764,
+                 from Main.c:1:
+/usr/local/include/curses.h:1104:16: error: conflicting types for ‘wclear’
+ PDCEX  int     wclear(WINDOW *);
+                ^~~~~~
+In file included from Main.c:1:0:
+/usr/include/curses.h:829:28: note: previous declaration of ‘wclear’ was here
+ extern NCURSES_EXPORT(int) wclear (WINDOW *);    /* implemented */
+                            ^~~~~~
+In file included from /usr/include/unctrl.h:54:0,
+                 from /usr/include/curses.h:1764,
+                 from Main.c:1:
+/usr/local/include/curses.h:1105:16: error: conflicting types for ‘wclrtobot’
+ PDCEX  int     wclrtobot(WINDOW *);
+                ^~~~~~~~~
+In file included from Main.c:1:0:
+/usr/include/curses.h:830:28: note: previous declaration of ‘wclrtobot’ was here
+ extern NCURSES_EXPORT(int) wclrtobot (WINDOW *);   /* implemented */
+                            ^~~~~~~~~
+In file included from /usr/include/unctrl.h:54:0,
+                 from /usr/include/curses.h:1764,
+                 from Main.c:1:
+/usr/local/include/curses.h:1106:16: error: conflicting types for ‘wclrtoeol’
+ PDCEX  int     wclrtoeol(WINDOW *);
+                ^~~~~~~~~
+In file included from Main.c:1:0:
+/usr/include/curses.h:831:28: note: previous declaration of ‘wclrtoeol’ was here
+ extern NCURSES_EXPORT(int) wclrtoeol (WINDOW *);   /* implemented */
+                            ^~~~~~~~~
+In file included from /usr/include/unctrl.h:54:0,
+                 from /usr/include/curses.h:1764,
+                 from Main.c:1:
+/usr/local/include/curses.h:1107:16: error: conflicting types for ‘wcolor_set’
+ PDCEX  int     wcolor_set(WINDOW *, short, void *);
+                ^~~~~~~~~~
+In file included from Main.c:1:0:
+/usr/include/curses.h:832:28: note: previous declaration of ‘wcolor_set’ was here
+ extern NCURSES_EXPORT(int) wcolor_set (WINDOW*,NCURSES_PAIRS_T,void*);  /* implemented */
+                            ^~~~~~~~~~
+In file included from /usr/include/unctrl.h:54:0,
+                 from /usr/include/curses.h:1764,
+                 from Main.c:1:
+/usr/local/include/curses.h:1108:16: error: conflicting types for ‘wcursyncup’
+ PDCEX  void    wcursyncup(WINDOW *);
+                ^~~~~~~~~~
+In file included from Main.c:1:0:
+/usr/include/curses.h:833:29: note: previous declaration of ‘wcursyncup’ was here
+ extern NCURSES_EXPORT(void) wcursyncup (WINDOW *);   /* implemented */
+                             ^~~~~~~~~~
+In file included from /usr/include/unctrl.h:54:0,
+                 from /usr/include/curses.h:1764,
+                 from Main.c:1:
+/usr/local/include/curses.h:1109:16: error: conflicting types for ‘wdelch’
+ PDCEX  int     wdelch(WINDOW *);
+                ^~~~~~
+In file included from Main.c:1:0:
+/usr/include/curses.h:834:28: note: previous declaration of ‘wdelch’ was here
+ extern NCURSES_EXPORT(int) wdelch (WINDOW *);    /* implemented */
+                            ^~~~~~
+/usr/local/include/curses.h:1110:16: error: expected declaration specifiers or ‘...’ before ‘-’ token
+ PDCEX  int     wdeleteln(WINDOW *);
+                ^
+In file included from /usr/include/unctrl.h:54:0,
+                 from /usr/include/curses.h:1764,
+                 from Main.c:1:
+/usr/local/include/curses.h:1111:16: error: conflicting types for ‘wechochar’
+ PDCEX  int     wechochar(WINDOW *, const chtype);
+                ^~~~~~~~~
+In file included from Main.c:1:0:
+/usr/include/curses.h:836:28: note: previous declaration of ‘wechochar’ was here
+ extern NCURSES_EXPORT(int) wechochar (WINDOW *, const chtype);  /* implemented */
+                            ^~~~~~~~~
+In file included from /usr/include/unctrl.h:54:0,
+                 from /usr/include/curses.h:1764,
+                 from Main.c:1:
+/usr/local/include/curses.h:1112:16: error: conflicting types for ‘werase’
+ PDCEX  int     werase(WINDOW *);
+                ^~~~~~
+In file included from Main.c:1:0:
+/usr/include/curses.h:837:28: note: previous declaration of ‘werase’ was here
+ extern NCURSES_EXPORT(int) werase (WINDOW *);    /* implemented */
+                            ^~~~~~
+In file included from /usr/include/unctrl.h:54:0,
+                 from /usr/include/curses.h:1764,
+                 from Main.c:1:
+/usr/local/include/curses.h:1113:16: error: conflicting types for ‘wgetch’
+ PDCEX  int     wgetch(WINDOW *);
+                ^~~~~~
+In file included from Main.c:1:0:
+/usr/include/curses.h:838:28: note: previous declaration of ‘wgetch’ was here
+ extern NCURSES_EXPORT(int) wgetch (WINDOW *);    /* implemented */
+                            ^~~~~~
+In file included from /usr/include/unctrl.h:54:0,
+                 from /usr/include/curses.h:1764,
+                 from Main.c:1:
+/usr/local/include/curses.h:1114:16: error: conflicting types for ‘wgetnstr’
+ PDCEX  int     wgetnstr(WINDOW *, char *, int);
+                ^~~~~~~~
+In file included from Main.c:1:0:
+/usr/include/curses.h:839:28: note: previous declaration of ‘wgetnstr’ was here
+ extern NCURSES_EXPORT(int) wgetnstr (WINDOW *,char *,int);  /* implemented */
+                            ^~~~~~~~
+/usr/local/include/curses.h:1115:16: error: expected declaration specifiers or ‘...’ before ‘-’ token
+ PDCEX  int     wgetstr(WINDOW *, char *);
+                ^
+In file included from /usr/include/unctrl.h:54:0,
+                 from /usr/include/curses.h:1764,
+                 from Main.c:1:
+/usr/local/include/curses.h:1116:16: error: conflicting types for ‘whline’
+ PDCEX  int     whline(WINDOW *, chtype, int);
+                ^~~~~~
+In file included from Main.c:1:0:
+/usr/include/curses.h:841:28: note: previous declaration of ‘whline’ was here
+ extern NCURSES_EXPORT(int) whline (WINDOW *, chtype, int);  /* implemented */
+                            ^~~~~~
+In file included from /usr/include/unctrl.h:54:0,
+                 from /usr/include/curses.h:1764,
+                 from Main.c:1:
+/usr/local/include/curses.h:1117:16: error: conflicting types for ‘winchnstr’
+ PDCEX  int     winchnstr(WINDOW *, chtype *, int);
+                ^~~~~~~~~
+In file included from Main.c:1:0:
+/usr/include/curses.h:843:28: note: previous declaration of ‘winchnstr’ was here
+ extern NCURSES_EXPORT(int) winchnstr (WINDOW *, chtype *, int);  /* implemented */
+                            ^~~~~~~~~
+/usr/local/include/curses.h:1118:16: error: expected declaration specifiers or ‘...’ before ‘-’ token
+ PDCEX  int     winchstr(WINDOW *, chtype *);
+                ^
+In file included from /usr/include/unctrl.h:54:0,
+                 from /usr/include/curses.h:1764,
+                 from Main.c:1:
+/usr/local/include/curses.h:1119:16: error: conflicting types for ‘winch’
+ PDCEX  chtype  winch(WINDOW *);
+                ^~~~~
+In file included from Main.c:1:0:
+/usr/include/curses.h:842:31: note: previous declaration of ‘winch’ was here
+ extern NCURSES_EXPORT(chtype) winch (WINDOW *);    /* implemented */
+                               ^~~~~
+In file included from /usr/include/unctrl.h:54:0,
+                 from /usr/include/curses.h:1764,
+                 from Main.c:1:
+/usr/local/include/curses.h:1120:16: error: conflicting types for ‘winnstr’
+ PDCEX  int     winnstr(WINDOW *, char *, int);
+                ^~~~~~~
+In file included from Main.c:1:0:
+/usr/include/curses.h:845:28: note: previous declaration of ‘winnstr’ was here
+ extern NCURSES_EXPORT(int) winnstr (WINDOW *, char *, int);  /* implemented */
+                            ^~~~~~~
+In file included from /usr/include/unctrl.h:54:0,
+                 from /usr/include/curses.h:1764,
+                 from Main.c:1:
+/usr/local/include/curses.h:1121:16: error: conflicting types for ‘winsch’
+ PDCEX  int     winsch(WINDOW *, chtype);
+                ^~~~~~
+In file included from Main.c:1:0:
+/usr/include/curses.h:846:28: note: previous declaration of ‘winsch’ was here
+ extern NCURSES_EXPORT(int) winsch (WINDOW *, chtype);   /* implemented */
+                            ^~~~~~
+In file included from /usr/include/unctrl.h:54:0,
+                 from /usr/include/curses.h:1764,
+                 from Main.c:1:
+/usr/local/include/curses.h:1122:16: error: conflicting types for ‘winsdelln’
+ PDCEX  int     winsdelln(WINDOW *, int);
+                ^~~~~~~~~
+In file included from Main.c:1:0:
+/usr/include/curses.h:847:28: note: previous declaration of ‘winsdelln’ was here
+ extern NCURSES_EXPORT(int) winsdelln (WINDOW *,int);   /* implemented */
+                            ^~~~~~~~~
+/usr/local/include/curses.h:1123:16: error: expected declaration specifiers or ‘...’ before numeric constant
+ PDCEX  int     winsertln(WINDOW *);
+                ^
+In file included from /usr/include/unctrl.h:54:0,
+                 from /usr/include/curses.h:1764,
+                 from Main.c:1:
+/usr/local/include/curses.h:1124:16: error: conflicting types for ‘winsnstr’
+ PDCEX  int     winsnstr(WINDOW *, const char *, int);
+                ^~~~~~~~
+In file included from Main.c:1:0:
+/usr/include/curses.h:849:28: note: previous declaration of ‘winsnstr’ was here
+ extern NCURSES_EXPORT(int) winsnstr (WINDOW *, const char *,int); /* implemented */
+                            ^~~~~~~~
+/usr/local/include/curses.h:1125:16: error: expected declaration specifiers or ‘...’ before ‘-’ token
+ PDCEX  int     winsstr(WINDOW *, const char *);
+                ^
+/usr/local/include/curses.h:1126:16: error: expected declaration specifiers or ‘...’ before ‘-’ token
+ PDCEX  int     winstr(WINDOW *, char *);
+                ^
+In file included from /usr/include/unctrl.h:54:0,
+                 from /usr/include/curses.h:1764,
+                 from Main.c:1:
+/usr/local/include/curses.h:1127:16: error: conflicting types for ‘wmove’
+ PDCEX  int     wmove(WINDOW *, int, int);
+                ^~~~~
+In file included from Main.c:1:0:
+/usr/include/curses.h:852:28: note: previous declaration of ‘wmove’ was here
+ extern NCURSES_EXPORT(int) wmove (WINDOW *,int,int);   /* implemented */
+                            ^~~~~
+In file included from /usr/include/unctrl.h:54:0,
+                 from /usr/include/curses.h:1764,
+                 from Main.c:1:
+/usr/local/include/curses.h:1128:16: error: conflicting types for ‘wnoutrefresh’
+ PDCEX  int     wnoutrefresh(WINDOW *);
+                ^~~~~~~~~~~~
+In file included from Main.c:1:0:
+/usr/include/curses.h:853:28: note: previous declaration of ‘wnoutrefresh’ was here
+ extern NCURSES_EXPORT(int) wnoutrefresh (WINDOW *);   /* implemented */
+                            ^~~~~~~~~~~~
+In file included from /usr/include/unctrl.h:54:0,
+                 from /usr/include/curses.h:1764,
+                 from Main.c:1:
+/usr/local/include/curses.h:1129:16: error: conflicting types for ‘wprintw’
+ PDCEX  int     wprintw(WINDOW *, const char *, ...);
+                ^~~~~~~
+In file included from Main.c:1:0:
+/usr/include/curses.h:854:28: note: previous declaration of ‘wprintw’ was here
+ extern NCURSES_EXPORT(int) wprintw (WINDOW *, const char *,...)  /* implemented */
+                            ^~~~~~~
+In file included from /usr/include/unctrl.h:54:0,
+                 from /usr/include/curses.h:1764,
+                 from Main.c:1:
+/usr/local/include/curses.h:1130:16: error: conflicting types for ‘wredrawln’
+ PDCEX  int     wredrawln(WINDOW *, int, int);
+                ^~~~~~~~~
+In file included from Main.c:1:0:
+/usr/include/curses.h:856:28: note: previous declaration of ‘wredrawln’ was here
+ extern NCURSES_EXPORT(int) wredrawln (WINDOW *,int,int);  /* implemented */
+                            ^~~~~~~~~
+In file included from /usr/include/unctrl.h:54:0,
+                 from /usr/include/curses.h:1764,
+                 from Main.c:1:
+/usr/local/include/curses.h:1131:16: error: conflicting types for ‘wrefresh’
+ PDCEX  int     wrefresh(WINDOW *);
+                ^~~~~~~~
+In file included from Main.c:1:0:
+/usr/include/curses.h:857:28: note: previous declaration of ‘wrefresh’ was here
+ extern NCURSES_EXPORT(int) wrefresh (WINDOW *);    /* implemented */
+                            ^~~~~~~~
+In file included from /usr/include/unctrl.h:54:0,
+                 from /usr/include/curses.h:1764,
+                 from Main.c:1:
+/usr/local/include/curses.h:1132:16: error: conflicting types for ‘wscanw’
+ PDCEX  int     wscanw(WINDOW *, const char *, ...);
+                ^~~~~~
+In file included from Main.c:1:0:
+/usr/include/curses.h:858:28: note: previous declaration of ‘wscanw’ was here
+ extern NCURSES_EXPORT(int) wscanw (WINDOW *, NCURSES_CONST char *,...) /* implemented */
+                            ^~~~~~
+In file included from /usr/include/unctrl.h:54:0,
+                 from /usr/include/curses.h:1764,
+                 from Main.c:1:
+/usr/local/include/curses.h:1133:16: error: conflicting types for ‘wscrl’
+ PDCEX  int     wscrl(WINDOW *, int);
+                ^~~~~
+In file included from Main.c:1:0:
+/usr/include/curses.h:860:28: note: previous declaration of ‘wscrl’ was here
+ extern NCURSES_EXPORT(int) wscrl (WINDOW *,int);   /* implemented */
+                            ^~~~~
+In file included from /usr/include/unctrl.h:54:0,
+                 from /usr/include/curses.h:1764,
+                 from Main.c:1:
+/usr/local/include/curses.h:1134:16: error: conflicting types for ‘wsetscrreg’
+ PDCEX  int     wsetscrreg(WINDOW *, int, int);
+                ^~~~~~~~~~
+In file included from Main.c:1:0:
+/usr/include/curses.h:861:28: note: previous declaration of ‘wsetscrreg’ was here
+ extern NCURSES_EXPORT(int) wsetscrreg (WINDOW *,int,int);  /* implemented */
+                            ^~~~~~~~~~
+In file included from Main.c:1:0:
+/usr/local/include/curses.h:1135:16: error: expected identifier or ‘(’ before numeric constant
+ PDCEX  int     wstandend(WINDOW *);
+                ^
+In file included from Main.c:1:0:
+/usr/local/include/curses.h:1135:16: error: expected ‘)’ before ‘?’ token
+ PDCEX  int     wstandend(WINDOW *);
+                ^
+In file included from Main.c:1:0:
+/usr/local/include/curses.h:1136:16: error: expected identifier or ‘(’ before numeric constant
+ PDCEX  int     wstandout(WINDOW *);
+                ^
+In file included from Main.c:1:0:
+/usr/local/include/curses.h:1136:16: error: expected ‘)’ before ‘?’ token
+ PDCEX  int     wstandout(WINDOW *);
+                ^
+In file included from /usr/include/unctrl.h:54:0,
+                 from /usr/include/curses.h:1764,
+                 from Main.c:1:
+/usr/local/include/curses.h:1137:16: error: conflicting types for ‘wsyncdown’
+ PDCEX  void    wsyncdown(WINDOW *);
+                ^~~~~~~~~
+In file included from Main.c:1:0:
+/usr/include/curses.h:864:29: note: previous declaration of ‘wsyncdown’ was here
+ extern NCURSES_EXPORT(void) wsyncdown (WINDOW *);   /* implemented */
+                             ^~~~~~~~~
+In file included from /usr/include/unctrl.h:54:0,
+                 from /usr/include/curses.h:1764,
+                 from Main.c:1:
+/usr/local/include/curses.h:1138:16: error: conflicting types for ‘wsyncup’
+ PDCEX  void    wsyncup(WINDOW *);
+                ^~~~~~~
+In file included from Main.c:1:0:
+/usr/include/curses.h:865:29: note: previous declaration of ‘wsyncup’ was here
+ extern NCURSES_EXPORT(void) wsyncup (WINDOW *);    /* implemented */
+                             ^~~~~~~
+In file included from /usr/include/unctrl.h:54:0,
+                 from /usr/include/curses.h:1764,
+                 from Main.c:1:
+/usr/local/include/curses.h:1139:16: error: conflicting types for ‘wtimeout’
+ PDCEX  void    wtimeout(WINDOW *, int);
+                ^~~~~~~~
+In file included from Main.c:1:0:
+/usr/include/curses.h:866:29: note: previous declaration of ‘wtimeout’ was here
+ extern NCURSES_EXPORT(void) wtimeout (WINDOW *,int);   /* implemented */
+                             ^~~~~~~~
+In file included from /usr/include/unctrl.h:54:0,
+                 from /usr/include/curses.h:1764,
+                 from Main.c:1:
+/usr/local/include/curses.h:1140:16: error: conflicting types for ‘wtouchln’
+ PDCEX  int     wtouchln(WINDOW *, int, int, int);
+                ^~~~~~~~
+In file included from Main.c:1:0:
+/usr/include/curses.h:867:28: note: previous declaration of ‘wtouchln’ was here
+ extern NCURSES_EXPORT(int) wtouchln (WINDOW *,int,int,int);  /* implemented */
+                            ^~~~~~~~
+In file included from /usr/include/unctrl.h:54:0,
+                 from /usr/include/curses.h:1764,
+                 from Main.c:1:
+/usr/local/include/curses.h:1141:16: error: conflicting types for ‘wvline’
+ PDCEX  int     wvline(WINDOW *, chtype, int);
+                ^~~~~~
+In file included from Main.c:1:0:
+/usr/include/curses.h:868:28: note: previous declaration of ‘wvline’ was here
+ extern NCURSES_EXPORT(int) wvline (WINDOW *,chtype,int);  /* implemented */
+                            ^~~~~~
+In file included from Main.c:1:0:
+/usr/local/include/curses.h:1247:16: error: expected identifier or ‘(’ before ‘int’
+ PDCEX  chtype  getattrs(WINDOW *);
+                ^
+/usr/local/include/curses.h:1248:16: error: expected identifier or ‘(’ before numeric constant
+ PDCEX  int     getbegx(WINDOW *);
+                ^
+In file included from Main.c:1:0:
+/usr/local/include/curses.h:1248:16: error: expected ‘)’ before ‘?’ token
+ PDCEX  int     getbegx(WINDOW *);
+                ^
+In file included from Main.c:1:0:
+/usr/local/include/curses.h:1249:16: error: expected identifier or ‘(’ before numeric constant
+ PDCEX  int     getbegy(WINDOW *);
+                ^
+In file included from Main.c:1:0:
+/usr/local/include/curses.h:1249:16: error: expected ‘)’ before ‘?’ token
+ PDCEX  int     getbegy(WINDOW *);
+                ^
+In file included from Main.c:1:0:
+/usr/local/include/curses.h:1250:16: error: expected identifier or ‘(’ before numeric constant
+ PDCEX  int     getmaxx(WINDOW *);
+                ^
+In file included from Main.c:1:0:
+/usr/local/include/curses.h:1250:16: error: expected ‘)’ before ‘?’ token
+ PDCEX  int     getmaxx(WINDOW *);
+                ^
+In file included from Main.c:1:0:
+/usr/local/include/curses.h:1251:16: error: expected identifier or ‘(’ before numeric constant
+ PDCEX  int     getmaxy(WINDOW *);
+                ^
+In file included from Main.c:1:0:
+/usr/local/include/curses.h:1251:16: error: expected ‘)’ before ‘?’ token
+ PDCEX  int     getmaxy(WINDOW *);
+                ^
+In file included from Main.c:1:0:
+/usr/local/include/curses.h:1252:16: error: expected identifier or ‘(’ before numeric constant
+ PDCEX  int     getparx(WINDOW *);
+                ^
+In file included from Main.c:1:0:
+/usr/local/include/curses.h:1252:16: error: expected ‘)’ before ‘?’ token
+ PDCEX  int     getparx(WINDOW *);
+                ^
+In file included from Main.c:1:0:
+/usr/local/include/curses.h:1253:16: error: expected identifier or ‘(’ before numeric constant
+ PDCEX  int     getpary(WINDOW *);
+                ^
+In file included from Main.c:1:0:
+/usr/local/include/curses.h:1253:16: error: expected ‘)’ before ‘?’ token
+ PDCEX  int     getpary(WINDOW *);
+                ^
+In file included from Main.c:1:0:
+/usr/local/include/curses.h:1254:16: error: expected identifier or ‘(’ before numeric constant
+ PDCEX  int     getcurx(WINDOW *);
+                ^
+In file included from Main.c:1:0:
+/usr/local/include/curses.h:1254:16: error: expected ‘)’ before ‘?’ token
+ PDCEX  int     getcurx(WINDOW *);
+                ^
+In file included from Main.c:1:0:
+/usr/local/include/curses.h:1255:16: error: expected identifier or ‘(’ before numeric constant
+ PDCEX  int     getcury(WINDOW *);
+                ^
+In file included from Main.c:1:0:
+/usr/local/include/curses.h:1255:16: error: expected ‘)’ before ‘?’ token
+ PDCEX  int     getcury(WINDOW *);
+                ^
+In file included from /usr/include/unctrl.h:54:0,
+                 from /usr/include/curses.h:1764,
+                 from Main.c:1:
+/usr/local/include/curses.h:1260:27: error: macro "crmode" passed 1 arguments, but takes just 0
+ PDCEX  int     crmode(void);
+                           ^
+/usr/local/include/curses.h:1261:29: error: macro "nocrmode" passed 1 arguments, but takes just 0
+ PDCEX  int     nocrmode(void);
+                             ^
+/usr/local/include/curses.h:1263:30: error: macro "resetterm" passed 1 arguments, but takes just 0
+ PDCEX  int     resetterm(void);
+                              ^
+/usr/local/include/curses.h:1264:28: error: macro "fixterm" passed 1 arguments, but takes just 0
+ PDCEX  int     fixterm(void);
+                            ^
+/usr/local/include/curses.h:1265:29: error: macro "saveterm" passed 1 arguments, but takes just 0
+ PDCEX  int     saveterm(void);
+                             ^
+In file included from Main.c:1:0:
+/usr/local/include/curses.h:1266:16: error: expected identifier or ‘(’ before ‘do’
+ PDCEX  void    setsyx(int, int);
+                ^
+/usr/local/include/curses.h:1266:16: error: expected identifier or ‘(’ before ‘while’
+ PDCEX  void    setsyx(int, int);
+                ^
+In file included from /usr/include/unctrl.h:54:0,
+                 from /usr/include/curses.h:1764,
+                 from Main.c:1:
+/usr/local/include/curses.h:1273:16: error: conflicting types for ‘getmouse’
+ PDCEX  mmask_t getmouse(void);
+                ^~~~~~~~
+In file included from Main.c:1:0:
+/usr/include/curses.h:1686:32: note: previous declaration of ‘getmouse’ was here
+ extern NCURSES_EXPORT(int)     getmouse (MEVENT *);
+                                ^~~~~~~~
+In file included from /usr/include/unctrl.h:54:0,
+                 from /usr/include/curses.h:1764,
+                 from Main.c:1:
+/usr/local/include/curses.h:1279:16: error: conflicting types for ‘has_key’
+ PDCEX  bool    has_key(int);
+                ^~~~~~~
+In file included from Main.c:1:0:
+/usr/include/curses.h:1709:28: note: previous declaration of ‘has_key’ was here
+ extern NCURSES_EXPORT(int) has_key (int);  /* do we have given key? */
+                            ^~~~~~~
+In file included from Main.c:1:0:
+/usr/local/include/curses.h:1280:16: error: expected identifier or ‘(’ before numeric constant
+ PDCEX  bool    is_keypad(const WINDOW *);
+                ^
+In file included from Main.c:1:0:
+/usr/local/include/curses.h:1280:16: error: expected ‘)’ before ‘?’ token
+ PDCEX  bool    is_keypad(const WINDOW *);
+                ^
+In file included from Main.c:1:0:
+/usr/local/include/curses.h:1281:16: error: expected identifier or ‘(’ before numeric constant
+ PDCEX  bool    is_leaveok(const WINDOW *);
+                ^
+In file included from Main.c:1:0:
+/usr/local/include/curses.h:1281:16: error: expected ‘)’ before ‘?’ token
+ PDCEX  bool    is_leaveok(const WINDOW *);
+                ^
+In file included from Main.c:1:0:
+/usr/local/include/curses.h:1282:16: error: expected identifier or ‘(’ before numeric constant
+ PDCEX  bool    is_pad(const WINDOW *);
+                ^
+In file included from Main.c:1:0:
+/usr/local/include/curses.h:1282:16: error: expected ‘)’ before ‘?’ token
+ PDCEX  bool    is_pad(const WINDOW *);
+                ^
+In file included from /usr/include/unctrl.h:54:0,
+                 from /usr/include/curses.h:1764,
+                 from Main.c:1:
+/usr/local/include/curses.h:1285:16: error: conflicting types for ‘wresize’
+ PDCEX  int     wresize(WINDOW *, int, int);
+                ^~~~~~~
+In file included from Main.c:1:0:
+/usr/include/curses.h:947:28: note: previous declaration of ‘wresize’ was here
+ extern NCURSES_EXPORT(int) wresize (WINDOW *, int, int);
+                            ^~~~~~~
+/usr/local/include/curses.h:1290:16: error: expected ‘)’ before ‘int’
+ PDCEX  bool    mouse_trafo(int *, int *, bool);
+                ^
+In file included from /usr/include/unctrl.h:54:0,
+                 from /usr/include/curses.h:1764,
+                 from Main.c:1:
+/usr/local/include/curses.h:1292:16: error: conflicting types for ‘ungetmouse’
+ PDCEX  int     ungetmouse(MEVENT *);
+                ^~~~~~~~~~
+In file included from Main.c:1:0:
+/usr/include/curses.h:1687:32: note: previous declaration of ‘ungetmouse’ was here
+ extern NCURSES_EXPORT(int)     ungetmouse (MEVENT *);
+                                ^~~~~~~~~~
+In file included from /usr/include/unctrl.h:54:0,
+                 from /usr/include/curses.h:1764,
+                 from Main.c:1:
+/usr/local/include/curses.h:1293:16: error: conflicting types for ‘wenclose’
+ PDCEX  bool    wenclose(const WINDOW *, int, int);
+                ^~~~~~~~
+In file included from Main.c:1:0:
+/usr/include/curses.h:1689:32: note: previous declaration of ‘wenclose’ was here
+ extern NCURSES_EXPORT(bool)    wenclose (const WINDOW *, int, int);
+                                ^~~~~~~~
+In file included from /usr/include/unctrl.h:54:0,
+                 from /usr/include/curses.h:1764,
+                 from Main.c:1:
+/usr/local/include/curses.h:1294:16: error: conflicting types for ‘wmouse_trafo’
+ PDCEX  bool    wmouse_trafo(const WINDOW *, int *, int *, bool);
+                ^~~~~~~~~~~~
+In file included from Main.c:1:0:
+/usr/include/curses.h:1691:32: note: previous declaration of ‘wmouse_trafo’ was here
+ extern NCURSES_EXPORT(bool)    wmouse_trafo (const WINDOW*, int*, int*, bool);
+                                ^~~~~~~~~~~~
+In file included from /usr/include/curses.h:1764:0,
+                 from Main.c:1:
+/usr/include/unctrl.h:57:38: error: conflicting types for ‘unctrl’
+ NCURSES_EXPORT(NCURSES_CONST char *) unctrl (chtype);
+                                      ^~~~~~
+In file included from /usr/include/unctrl.h:54:0,
+                 from /usr/include/curses.h:1764,
+                 from Main.c:1:
+/usr/local/include/curses.h:1258:16: note: previous declaration of ‘unctrl’ was here
+ PDCEX  char   *unctrl(chtype);
+                ^~~~~~
+make: *** [install] Error 1
